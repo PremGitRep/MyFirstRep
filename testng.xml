@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GRID SAMPLE TEST" parllel="tests" thread-count="3">
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF">
+        <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name ="seleniumgrid.testng.check.SeleniumGridCheck"/>
+        </classes>
+    </test>
+
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF1">
+        <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name ="seleniumgrid.testng.check.SeleniumGridCheck"/>
+        </classes>
+    </test>
+
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF2">
+        <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name ="seleniumgrid.testng.check.SeleniumGridCheck"/>
+        </classes>
+    </test>
+
+</suite>

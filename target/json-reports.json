@@ -1,0 +1,299 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-14T03:15:34.298Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3084201700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search in Google",
+        "description": "",
+        "id": "login-application-feature;search-in-google;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 25004000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.wrapUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9995500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Google home page is available",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.google_home_page_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5997600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Title",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5728990700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Business Footer Link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.user_clicks_on_business_footer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the Business Page Title",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_business_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 452733900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on FAQs",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.click_on_fa_qs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5037198600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the page has Skillshop footer link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_page_has_skillshop_footer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5457079800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the Skillshop Link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.clickOnTheSkillshopLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2617998700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Search for this words \"Prem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prem\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.StepDefinitionClass.searchForThisWords(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-14T03:15:56.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2332354900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search in Google",
+        "description": "",
+        "id": "login-application-feature;search-in-google;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 67004200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.wrapUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5999300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Google home page is available",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.google_home_page_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4001200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Title",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3870021800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Business Footer Link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.user_clicks_on_business_footer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4999200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the Business Page Title",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_business_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365841200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on FAQs",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.click_on_fa_qs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5030552900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the page has Skillshop footer link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.verify_the_page_has_skillshop_footer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069941500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the Skillshop Link",
+            "match": {
+              "location": "stepdefinition.StepDefinitionClass.clickOnTheSkillshopLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013121700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Search for this words \"Suganya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suganya\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.StepDefinitionClass.searchForThisWords(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Application Feature",
+    "description": "",
+    "id": "login-application-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/Login.feature",
+    "tags": []
+  }
+]
